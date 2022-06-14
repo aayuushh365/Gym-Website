@@ -1,0 +1,110 @@
+.left {
+  position: absolute;
+  left: 130px;
+  top: 90px;
+  color: black;
+  display: inline-block;
+}
+
+.mid {
+  display: block;
+  width: 60%;
+  margin: 72px auto;
+  color: white;
+}
+
+.right {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  display: inline-block;
+  color: white;
+}
+
+.navbar {
+  display: inline-block;
+  padding: 126px 205px;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 60px;
+}
+
+.navbar li a {
+  background-color: black;
+    color: white;
+    border: 2px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 21px 135px;
+}
+
+.navbar li a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+.left img {
+  width: 300px;
+  margin: 21px 19rem;
+}
+
+.left div {
+  text-align: center;
+  font-size: 45px;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+  margin: 4rem 1rem;
+  font-size: 46px;
+  background: #100c08;
+  color: white;
+  padding: 21px 22px;
+  border: 5px solid grey;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(48, 45, 45);
+  text-decoration: underline;
+}
+
+.container {
+  color: #DCC9B6;
+  font-size: 50px;
+  border: 6px solid black;
+  padding: 6rem 36rem;
+  display: inline-block;
+  margin: 20rem 0rem;
+  border-radius: 10rem;
+}
+
+.form-group input {
+  font-family: "Roboto", sans-serif;
+  margin: 23px 26px;
+  padding: 19px 78px;
+  font-size: 44px;
+  text-align: center;
+  display: block;
+  border: 5px solid black;
+}
+.container button {
+  display: block;
+    width: 50%;
+    margin: 29px 21px;
+}
+.container h1 {
+  background-color: black;
+  border: 10px solid black;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  font-size: 100px;
+  border-radius: 10px;
+}
